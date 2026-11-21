@@ -1,0 +1,6 @@
+// Website functionality
+console.log("Website is running!");
+
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("Website loaded successfully.");
+});
