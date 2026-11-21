@@ -1,6 +1,8 @@
-// Website functionality
-console.log("Website is running!");
 
 document.addEventListener("DOMContentLoaded", function () {
-  console.log("Website loaded successfully.");
+  const button = document.getElementById("welcomeButton");
+
+  button.addEventListener("click", function () {
+    alert("Welcome! Your website is working!");
+  });
 });
